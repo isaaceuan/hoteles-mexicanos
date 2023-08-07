@@ -51,7 +51,7 @@
 <script>
     import {SpringSpinner} from 'epic-spinners'
     import {agrupadorEvent, totalEvent} from '../../app';
-    import GridSinDisponibilidadComponent from "./../disponibilidad/sinDisponibilidad/GridSinDisponibilidadComponent";
+    import GridSinDisponibilidadComponent from "./../disponibilidad/sinDisponibilidad/GridSinDisponibilidadComponent.vue";
 
     export default {
         props: {
