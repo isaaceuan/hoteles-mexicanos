@@ -1,0 +1,148 @@
+@import 'theme/variables';
+/*@import 'theme/banner';
+@import 'theme/buttons';
+@import 'theme/complemento';
+ ;*/
+
+@import 'theme/mobiscroll';
+@import 'theme/modal';
+@import 'theme/calendario_marcadores';
+@import 'theme/sidebarmenu';
+@import 'theme/steps';
+@import 'theme/disponibilidad';
+@import 'theme/modificar';
+@import 'theme/footer';
+
+.container {
+    /*border: 1px solid deeppink;*/
+}
+
+p {
+    font-family: 'Open Sans' !important;
+    line-height: 1.5;
+    font-size: $font14;
+}
+
+p > span {
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    color: #333;
+    font-size: $font14;
+}
+
+body {
+    font-family: 'Open Sans' !important;
+    background-color: #E5E9EC !important;
+    color: #333;
+    font-size: $font14 !important;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.form-control:focus {
+    border-color: $color-acento !important;
+}
+
+.popover-body {
+    min-width: 250px;
+}
+
+i.fa.fa-child {
+    font-size: 10px;
+}
+
+.form-control[readonly] {
+    background-color: #ffffff !important;
+}
+
+
+.custom-control-label{
+    padding: 5px !important;
+}
+.custom-control-label::before,
+.custom-control-label::after {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.floating-footer span.toggler {
+    position: absolute;
+    top: -20px;
+    height: 20px;
+    line-height: 10px;
+    display: flex;
+    left: calc(50% - 15px);
+    width: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.floating-footer.hidden {
+    height: 0; // puede ser otro valor
+}
+
+.floating-footer.hidden span.toggler {
+    /* background-color: $color-acento!important;
+     color: $color-claro;*/
+}
+
+.floating-footer.hidden span.toggler .fa-caret-down:before {
+    content: "\f0d8" !important;
+}
+
+.contentConfirmacion hr{
+    border-width: 3px;
+    width: 30%;
+}
+.circle-icon {
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.line-height-1 {
+    line-height: 1;
+}
+
+//LOADING ADMIN
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1051;
+}
+
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(152, 152, 152, .6);
+}
+
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.btn-default {
+    border: 1px solid #ccc !important;
+    color: #444;
+    background-color: #f1f1f1;
+}
+
+

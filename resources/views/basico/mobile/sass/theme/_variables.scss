@@ -1,0 +1,73 @@
+$font10: 10px;
+$font12: 12px;
+$font13: 13px;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+
+
+$primary: #0cbdc4;
+$secondary: #044a4d;
+$success: #059117;
+$info: #079fb9;
+$warning: #9b8c04;
+$danger: #960f0a;
+$light: #bdbebe;
+$dark: #1e1e1f;
+$white: #ffffff;
+
+$color-acento: #A31E33;
+$color-claro: #FFFFFF;
+$color-oscuro: #625C59;
+
+.font-10 {
+    font-size: $font10;
+}
+.font-12 {
+  font-size: $font12 !important;
+}
+
+.font-13 {
+  font-size: $font13 !important;
+}
+
+.font-14 {
+  font-size: $font14 !important;
+}
+
+.font-16 {
+  font-size: $font16;
+}
+
+.font-18 {
+  font-size: $font18 !important;
+}
+
+.bg-acento {
+  background-color: $color-acento;
+}
+
+.bg-claro {
+  background-color: $color-claro;
+}
+
+.bg-oscuro {
+  background-color: $color-oscuro;
+}
+
+.color-acento {
+  color: $color-acento;
+}
+
+.color-claro {
+  color: $color-claro;
+}
+
+.color-oscuro {
+  color: $color-oscuro;
+}
+
+.color-dark {
+  color: $dark;
+}
+

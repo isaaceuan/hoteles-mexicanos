@@ -1,0 +1,12 @@
+@import 'variables';
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 75% !important;
+  }
+}
+
+.modal-footer{
+    z-index: 1;
+    background: $white;
+}

@@ -1,0 +1,77 @@
+.mbsc-mobiscroll .mbsc-cal-day-closed:after, .mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 3px;
+    width: 80%;
+    margin-left: 4px;
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 3;
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:after {
+    //top: 45%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:after, .mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 3px;
+    width: 80%;
+    margin-left: 4px;
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 3;
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    //top: 45%;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:after, .mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 3px;
+    width: 80%;
+    margin-left: 4px;
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 3;
+}
+
+//PROMOCIONES
+
+.mbsc-mobiscroll .mbsc-cal-day-promo:before {
+    content: "\f06d";
+    font-family: "Font Awesome 5 Pro";
+    color: #dc3545;
+    bottom: -3px;
+    left: 1px;
+    display: block;
+    position: absolute;
+    z-index: 3;
+}
+
+.mbsc-mobiscroll .mbsc-cal-tag-promo:after{
+    //content: "\f06d";
+    font-family: "Font Awesome 5 Pro";
+    color: #dc3545;
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    z-index: 3;
+
+}
+.mbsc-mobiscroll .mbsc-cal-tag-promo:before {
+    //content: "Hot Deal/Promoci\F3n";
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 25px;
+}

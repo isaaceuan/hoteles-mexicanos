@@ -1,0 +1,394 @@
+{
+    "estado": true,
+    "transaccion": {
+        "id": 79,
+        "referencia": "ord_2oJvAvoMwyhceNjCG",
+        "forma_pago": {
+            "codigo": "transferencia",
+            "nombre": "Transferencia bancaria"
+        },
+        "pasarela_pago": {
+            "codigo": "conekta",
+            "nombre": "Conekta"
+        },
+        "instrumento_pago": {
+            "codigo": "spei",
+            "nombre": "Transferencia SPEI"
+        },
+        "estado": "pendiente",
+        "moneda": "MXN",
+        "total": 380.08,
+        "metadatos": {
+            "clabe": "646180111812345678",
+            "banco": "STP",
+            "importe": 380.08,
+            "moneda": "MXN",
+            "caducidad": "2020-08-31T22:10:41+00:00"
+        }
+    },
+    "reservaciones": [
+        {
+            "id": 754,
+            "propiedad_id": 4,
+            "huesped_id": null,
+            "canal_venta_id": 4,
+            "tarifa_id": 1,
+            "plan_alimento_id": 2,
+            "anticipo_transaccion_id": 79,
+            "moneda_id": "MXN",
+            "folio": "93",
+            "referencia": null,
+            "fecha_venta": "2020-08-31 13:09:50.3360",
+            "fecha_cancelacion": null,
+            "motivo_cancelacion_id": null,
+            "fecha_entrada": "2020-08-31",
+            "fecha_salida": "2020-09-02",
+            "noches": 2,
+            "codigo_promocional": null,
+            "comentarios": "cometarios",
+            "estado": "pendiente",
+            "asignacion": "parcial",
+            "tarifa_confidencial": false,
+            "total_anticipo": 380.082,
+            "total_hospedaje": 105.12,
+            "total_alimentos": 51.78,
+            "total_descuentos": 0,
+            "total_complementos": 1500,
+            "total_impuestos": 325.1,
+            "total_propinas": 80,
+            "total": 2062,
+            "creado_en": "2020-08-31 13:09:50.2289",
+            "editado_en": "2020-08-31 13:09:50.3360",
+            "tipo_habitacion": {
+                "id": 22,
+                "propiedad_id": "4",
+                "activo": true,
+                "codigo": "SF12",
+                "orden": 2,
+                "es_compartido": false,
+                "sexo": "hombres",
+                "base": 1,
+                "ocupacion": 2,
+                "adultos": 2,
+                "ninos": 1,
+                "con_extra": true,
+                "inventario": 8,
+                "creado_en": "2019-08-08 10:47:08.2438",
+                "editado_en": "2019-12-11 12:58:01.4337",
+                "nombre": "Suite Familiar Deluxe",
+                "descripcion": "Es Deluxe!!!!!"
+            },
+            "habitacion": null,
+            "detalle_actual": {
+                "id": "AvJfTJHg",
+                "reservacion_id": 754,
+                "fecha": "2020-08-31",
+                "tipo_habitacion_id": 22,
+                "habitacion_id": null,
+                "promocion_id": null,
+                "adultos": 2,
+                "adultos_hospedaje": 52.56,
+                "adultos_alimentos": 25.89,
+                "adultos_descuento": 0,
+                "ninos1": 0,
+                "ninos2": 0,
+                "ninos3": 0,
+                "ninos_hospedaje": 0,
+                "ninos_alimentos": 0,
+                "ninos_descuento": 0,
+                "total_hospedaje": 52.56,
+                "total_alimentos": 25.89,
+                "total_descuentos": 0,
+                "total_impuestos": 32.55,
+                "total_propinas": 40,
+                "total": 151,
+                "creado_en": "2020-08-31 13:09:50.2760",
+                "editado_en": "2020-08-31 13:09:50.3260",
+                "habitacion": null,
+                "tipo_habitacion": {
+                    "id": 22,
+                    "propiedad_id": "4",
+                    "activo": true,
+                    "codigo": "SF12",
+                    "orden": 2,
+                    "es_compartido": false,
+                    "sexo": "hombres",
+                    "base": 1,
+                    "ocupacion": 2,
+                    "adultos": 2,
+                    "ninos": 1,
+                    "con_extra": true,
+                    "inventario": 8,
+                    "creado_en": "2019-08-08 10:47:08.2438",
+                    "editado_en": "2019-12-11 12:58:01.4337",
+                    "nombre": "Suite Familiar Deluxe",
+                    "descripcion": "Es Deluxe!!!!!"
+                }
+            },
+            "detalles": [
+                {
+                    "id": "AvJfTJHg",
+                    "reservacion_id": 754,
+                    "fecha": "2020-08-31",
+                    "tipo_habitacion_id": 22,
+                    "habitacion_id": null,
+                    "promocion_id": null,
+                    "adultos": 2,
+                    "adultos_hospedaje": 52.56,
+                    "adultos_alimentos": 25.89,
+                    "adultos_descuento": 0,
+                    "ninos1": 0,
+                    "ninos2": 0,
+                    "ninos3": 0,
+                    "ninos_hospedaje": 0,
+                    "ninos_alimentos": 0,
+                    "ninos_descuento": 0,
+                    "total_hospedaje": 52.56,
+                    "total_alimentos": 25.89,
+                    "total_descuentos": 0,
+                    "total_impuestos": 32.55,
+                    "total_propinas": 40,
+                    "total": 151,
+                    "creado_en": "2020-08-31 13:09:50.2760",
+                    "editado_en": "2020-08-31 13:09:50.3260",
+                    "impuestos": [
+                        {
+                            "reservacion_detalle_id": "AvJfTJHg",
+                            "impuesto_id": 29,
+                            "tipo": "hospedaje",
+                            "importe_adultos": 8.41,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3160"
+                        },
+                        {
+                            "reservacion_detalle_id": "AvJfTJHg",
+                            "impuesto_id": 29,
+                            "tipo": "alimentos",
+                            "importe_adultos": 4.14,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3160"
+                        },
+                        {
+                            "reservacion_detalle_id": "AvJfTJHg",
+                            "impuesto_id": 31,
+                            "tipo": "hospedaje",
+                            "importe_adultos": 20,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3160"
+                        }
+                    ],
+                    "propinas": [
+                        {
+                            "reservacion_detalle_id": "AvJfTJHg",
+                            "propina_id": 7,
+                            "importe_adultos": 20,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3260"
+                        },
+                        {
+                            "reservacion_detalle_id": "AvJfTJHg",
+                            "propina_id": 14,
+                            "importe_adultos": 20,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3260"
+                        }
+                    ]
+                },
+                {
+                    "id": "AvJfTeNg",
+                    "reservacion_id": 754,
+                    "fecha": "2020-09-01",
+                    "tipo_habitacion_id": 22,
+                    "habitacion_id": null,
+                    "promocion_id": null,
+                    "adultos": 2,
+                    "adultos_hospedaje": 52.56,
+                    "adultos_alimentos": 25.89,
+                    "adultos_descuento": 0,
+                    "ninos1": 0,
+                    "ninos2": 0,
+                    "ninos3": 0,
+                    "ninos_hospedaje": 0,
+                    "ninos_alimentos": 0,
+                    "ninos_descuento": 0,
+                    "total_hospedaje": 52.56,
+                    "total_alimentos": 25.89,
+                    "total_descuentos": 0,
+                    "total_impuestos": 32.55,
+                    "total_propinas": 20,
+                    "total": 131,
+                    "creado_en": "2020-08-31 13:09:50.3030",
+                    "editado_en": "2020-08-31 13:09:50.3360",
+                    "impuestos": [
+                        {
+                            "reservacion_detalle_id": "AvJfTeNg",
+                            "impuesto_id": 29,
+                            "tipo": "hospedaje",
+                            "importe_adultos": 8.41,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3300"
+                        },
+                        {
+                            "reservacion_detalle_id": "AvJfTeNg",
+                            "impuesto_id": 29,
+                            "tipo": "alimentos",
+                            "importe_adultos": 4.14,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3300"
+                        },
+                        {
+                            "reservacion_detalle_id": "AvJfTeNg",
+                            "impuesto_id": 31,
+                            "tipo": "hospedaje",
+                            "importe_adultos": 20,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3300"
+                        }
+                    ],
+                    "propinas": [
+                        {
+                            "reservacion_detalle_id": "AvJfTeNg",
+                            "propina_id": 7,
+                            "importe_adultos": 20,
+                            "importe_ninos": 0,
+                            "creado_en": "2020-08-31 13:09:50.3360"
+                        }
+                    ]
+                }
+            ],
+            "complementos": [
+                {
+                    "id": "AvIIX0yR4AI",
+                    "reservacion_id": 754,
+                    "complemento_id": 8,
+                    "fecha": "2020-08-31",
+                    "tipo": "adulto",
+                    "producto_id": 29,
+                    "precio": 250,
+                    "cantidad": 2,
+                    "importe": 500,
+                    "total_impuestos": 100,
+                    "total_propinas": 20,
+                    "total": 620,
+                    "incluido": true,
+                    "creado_en": "2020-08-31 13:09:50.2349",
+                    "editado_en": "2020-08-31 13:09:50.2700",
+                    "impuestos": [
+                        {
+                            "reservacion_complemento_id": "AvIIX0yR4AI",
+                            "impuesto_id": "29",
+                            "importe": 80,
+                            "creado_en": "2020-08-31 13:09:50.2700"
+                        },
+                        {
+                            "reservacion_complemento_id": "AvIIX0yR4AI",
+                            "impuesto_id": "31",
+                            "importe": 20,
+                            "creado_en": "2020-08-31 13:09:50.2700"
+                        }
+                    ],
+                    "propinas": [
+                        {
+                            "reservacion_complemento_id": "AvIIX0yR4AI",
+                            "propina_id": "14",
+                            "importe": 20,
+                            "creado_en": "2020-08-31 13:09:50.2670"
+                        }
+                    ]
+                },
+                {
+                    "id": "AvI7X0yR4AE",
+                    "reservacion_id": 754,
+                    "complemento_id": 59,
+                    "fecha": "2020-08-31",
+                    "tipo": "unidad",
+                    "producto_id": 60,
+                    "precio": 1000,
+                    "cantidad": 1,
+                    "importe": 1000,
+                    "total_impuestos": 160,
+                    "total_propinas": 0,
+                    "total": 1160,
+                    "incluido": true,
+                    "creado_en": "2020-08-31 13:09:50.2630",
+                    "editado_en": "2020-08-31 13:09:50.2740",
+                    "impuestos": [
+                        {
+                            "reservacion_complemento_id": "AvI7X0yR4AE",
+                            "impuesto_id": "29",
+                            "importe": 160,
+                            "creado_en": "2020-08-31 13:09:50.2740"
+                        }
+                    ],
+                    "propinas": []
+                }
+            ],
+            "regla_cancelacion": {
+                "regla_cancelacion_id": 39,
+                "es_reembolsable": false,
+                "creado_en": "2020-08-31 13:09:50.3070",
+                "editado_en": null,
+                "restricciones": []
+            },
+            "regla_modificacion": {
+                "regla_modificacion_id": 16,
+                "modo": "bloqueado",
+                "dias_anticipacion": 0,
+                "modificaciones": 0,
+                "fecha_limite": null,
+                "creado_en": "2020-08-31 13:09:50.3100",
+                "editado_en": null
+            },
+            "regla_pago": {
+                "regla_pago_id": 46,
+                "modo": "tasa",
+                "valor": 10,
+                "anticipo": 380.082,
+                "creado_en": "2020-08-31 13:09:50.3110",
+                "editado_en": null
+            },
+            "segmentacion": {
+                "reservacion_id": 754,
+                "origen_venta_id": null,
+                "tipo_mercado_id": null,
+                "segmento_mercado_id": null,
+                "medio_captacion_id": null,
+                "medio_transporte_id": null,
+                "creado_en": "2020-08-31 13:09:50.2319",
+                "editado_en": null
+            },
+            "ocupantes": [],
+            "titular": {
+                "reservacion_id": 754,
+                "titulo": null,
+                "nombres": "Michael Agustin",
+                "apellidos": "Pech",
+                "correo": "mikebizne@gmail.com",
+                "telefono": "+529993810485",
+                "telefono_otro": null,
+                "direccion": null,
+                "codigo_postal": null,
+                "ciudad": null,
+                "estado": null,
+                "pais": null
+            },
+            "tarifa": {
+                "id": 1,
+                "moneda_id": "MXN",
+                "activo": true,
+                "codigo": "RACK",
+                "codigo_promocional": "",
+                "es_confidencial": false,
+                "con_precio_dia": false,
+                "con_sobreescritura": true,
+                "regla_modificacion_id": 16,
+                "regla_cancelacion_id": 39,
+                "regla_pago_id": 46,
+                "creado_en": "2019-02-28 18:38:48.1340",
+                "editado_en": "2020-07-17 15:33:16.8270",
+                "nombre": "Tarifa Rack",
+                "descripcion": "<p>Todas las reservaciones deberan ser prepagadas antes de la fecha de llegada.<\/p>\n<p>Se procedera al cobro de la 1a noche a la tarjeta capturada al momento de reservar como garantia.<\/p>\n<p>Cambios y cancelaciones sin cargo hasta 3 dias antes de la fecha de llegada; en caso de que su reservacion cruce fechas con alta demanda o cerradas se le requerira el pago total de la habitacion.<\/p>\n<p>No se permiten mascotas.<\/p>"
+            }
+        }
+    ]
+}

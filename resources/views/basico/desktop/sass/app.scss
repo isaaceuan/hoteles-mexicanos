@@ -1,0 +1,143 @@
+@import 'theme/variables';
+@import 'theme/banner';
+@import 'theme/inicio';
+@import 'theme/calendario';
+@import 'theme/calendario_marcadores';
+@import 'theme/mobiscroll';
+@import 'theme/steps';
+@import 'theme/disponibilidad';
+@import 'theme/footer';
+@import 'theme/modal';
+@import 'theme/buttons';
+@import 'theme/complemento';
+@import 'theme/modificar';
+
+.container {
+    /*border: 1px solid deeppink;*/
+}
+
+p {
+    font-family: 'Open Sans' !important;
+    line-height: 1.5;
+    font-size: $font14;
+}
+
+p > span {
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    color: #333;
+    font-size: $font14;
+}
+
+body {
+    font-family: 'Open Sans' !important;
+    background-color: #E5E9EC !important;
+    color: #333;
+    font-size: $font14 !important;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+
+.popover-body {
+    min-width: 250px;
+}
+
+i.fa.fa-child {
+    font-size: 10px;
+}
+
+.contentConfirmacion hr {
+    border-width: 3px;
+    width: 10%;
+}
+
+.form-control[readonly] {
+    background-color: #ffffff !important;
+}
+
+.custom-control-label {
+    padding: 5px !important;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.b-popover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.z-index1021 {
+    z-index: 1021 !important;
+}
+
+.btnElminarElemento {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.line-height-1 {
+    line-height: 1;
+}
+
+.precioPopover {
+    text-align: right;
+}
+
+.precioPopover h5 {
+    font-size: 16px;
+}
+
+.precioPopover span, .precioPopover p {
+    font-size: 12px;
+}
+
+.precioPopover h5 > small,
+.precioPopover h5 > br,
+.precioPopover p:nth-child(3) {
+    display: none;
+}
+//LOADING ADMIN
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1025;
+}
+
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(152, 152, 152, .6);
+}
+
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -25px;
+    text-align: center;
+    font-size: 10px;
+}

@@ -1,0 +1,27 @@
+@import 'variables';
+
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 100% !important;
+    }
+}
+
+//.modal .modal-dialog {
+//    margin: 0 !important;
+//}
+
+.modal .modal-content {
+    //min-height: 98vh !important;
+    //border-radius: 0;
+}
+.modal-header{
+    padding: 12px !important;
+}
+.modal-footer {
+    padding: 5px !important;
+}
+
+.modal-header .close{
+    font-size: 2rem !important;
+}

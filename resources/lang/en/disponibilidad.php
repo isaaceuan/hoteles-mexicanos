@@ -1,0 +1,72 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Disponiblidad
+    |--------------------------------------------------------------------------
+    |
+    | Traducciones el blade de disponibilidad/index.blade.php
+    |
+    */
+    'desglose' => 'Breakdown',
+    'rate' => 'Rate',
+    'tarifas' => 'Rates',
+    'tarifas_dispo' => 'Available rates',
+    'habitacion' => 'Room',
+    'habitaciones' => 'Rooms',
+    'habitacion_dispo' => 'Available rooms',
+    'agrupar' => 'Group by',
+    'ver_resultados' => 'View results by',
+    'reservar' => 'Book now',
+    'reservar_habitacion' => 'Add room',
+    'agregar' => 'Add',
+    'agregar_otra_habitacion' => 'Add another room',
+    'max_ocupantes' => 'Max. Occupants',
+    'maxima' => 'Maximum',
+    'ocupacion' => 'Occupancy',
+    'desde' => 'Since',
+    'por' => 'by',
+    'total_con_impuestos' => 'Total including taxes',
+    'adulto' => 'Adult',
+    'ninos' => 'Children',
+    'noche' => 'Night',
+    'cerrar' => 'Close',
+    'estancia' => 'Stay',
+    'alimentos' => 'Foods',
+    'complementos' => 'Complements',
+    'impuestos' => 'Taxes',
+    'cargo_hotelero' => 'Hotel charge',
+    'total' => 'Total',
+    'ahorro' => 'You save',
+    'semana' => 'Week',
+    'dom' => 'Sun',
+    'lun' => 'Mon',
+    'mar' => 'Tue',
+    'mie' => 'Wed',
+    'jue' => 'Thu',
+    'vie' => 'Fri',
+    'sab' => 'Sat',
+    'hospedaje' => 'Lodging',
+    'solo_hospedaje' => 'Only lodging',
+    'aviso_disponibilidad' => 'Notice of availability',
+    'aviso_ajuste_cero_disponibilidad' => 'Dear customer, some rooms of your selection are no longer available. Please choose another that meets your occupation and desired rate.',
+    'aviso_ajuste_parte1' => 'Dear customer, some rooms of your selection:',
+    'aviso_ajuste_parte2' => 'have not enough availability or are no longer available. Please choose others that meet your occupation and desired rate.',
+    'consultar' => 'Consult availability',
+    'detalle_tarifa' => 'Rate details',
+    'detalle_habitacion' => 'Room details',
+    'promocion' => 'Promotion',
+    'promociones' => 'Promotions',
+    'reembolso_del' => ':tasa% refund until',
+    'modificar_reserva' => 'It is allowed to modify the reservation until',
+    'cancelacion_gratuita' => 'Free cancellation <br> Until',
+    'no_reembolsable' => 'Non refundable',
+    'no_modificar_reserva' => 'It is not allowed to modify the reservation',
+    'impuestos_cargos_incluidos' => 'Taxes and charges included',
+    'impuestos_cargos' => 'Taxes and charges',
+    'promedio_noche' => 'Average per',
+    'seleccionar' => 'Select',
+    'aniadir' => 'Add Room',
+];

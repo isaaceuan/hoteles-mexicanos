@@ -1,0 +1,171 @@
+body {
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fafafa;*/
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------------------------------------
+    SIDEBAR MENU
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -255px;
+    height: 100%;
+    z-index: 1022;
+    transition: all 0.3s;
+    overflow-y: scroll;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1021;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * Estas clases muestran una barra collapsable fullscreen desde arriba, abajo, izquierda o derecha, igual es posible establecer un ancho o alto fijo
+ * Podemos usar las clases collapse de bootstrap 4
+ *
+ * 1. Creamos nuestro sidebar collapsable (.fullbar) y le agregamos un botón para cerrarlo una vez abierto:
+ *
+ *       <nav  class="fullbar  bg-white collapse" id="collapseExample">
+ *           <nav class="navbar navbar-expand-lg navbar-light shadow-none p-2">
+ *               <div class="w-auto">
+ *                   <h2>Sidebar fullscreen</h2>
+ *               </div>
+ *               <a class="dismiss btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">
+ *                   <i class="fas fa-times"></i>
+ *               </a>
+ *           </nav>
+ *       </nav>
+ *
+ * 2. Agregamos un botón para abrir nuestro sidebar fullscreen visible en alguna parte de la página:
+ *
+ *       <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+ *           <i class="fas fa-phone"></i>
+ *       </a>
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.fullbar {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    z-index: 1022;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    top: -100%;
+}
+
+.fullbar.fullbar-bottom {
+    top: auto;
+    bottom: -100%;
+}
+
+.fullbar.fullbar-left {
+    left: -100%;
+    top: 0;
+}
+
+.fullbar.fullbar-right {
+    right: -100%;
+    top: 0;
+}
+
+/*
+* Ancho fijo para left y right
+*/
+.fullbar.fullbar-left.fixed-width,
+.fullbar.fullbar-right.fixed-width {
+    width: 250px; /* Podemos ajustar el ancho */
+}
+
+.fullbar.fullbar-left.fixed-width {
+    box-shadow: .125rem 0 .25rem rgba(0, 0, 0, .075);
+}
+
+.fullbar.fullbar-right.fixed-width {
+    box-shadow: -.125rem 0 .25rem rgba(0, 0, 0, .075);
+}
+
+/*
+* Alto fijo para el por default o bottom
+*/
+.fullbar.fullbar.fixed-height,
+.fullbar.fullbar-bottom.fixed-height {
+    height: 250px; /* Podemos ajustar el alto */
+}
+
+.fullbar.fixed-height {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.fullbar.fullbar-bottom.fixed-height {
+    box-shadow: 0 -.125rem .25rem rgba(0, 0, 0, .075);
+}
+
+/*
+* Posicionamiento al mostrar el fullbar
+*/
+.fullbar.show {
+    top: 0;
+}
+
+.fullbar.fullbar-bottom.show {
+    bottom: 0;
+    top: auto;
+}
+
+.fullbar.fullbar-left.show {
+    left: 0;
+}
+
+.fullbar.fullbar-right.show {
+    right: 0;
+}
+
+#sidebarBoxes > a {
+    font-size: .9rem !important;
+}
+
+/*
+.fullba {
+    top: -100%;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    position: fixed;
+    height: 100%;
+}
+.fullba.show {
+    top: 0;
+}
+*/

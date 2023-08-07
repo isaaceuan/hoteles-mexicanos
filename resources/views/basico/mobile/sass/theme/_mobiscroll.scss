@@ -1,0 +1,63 @@
+@import 'variables';
+
+
+/*calendar*/
+
+
+
+/*.mbsc-mobiscroll .mbsc-fr-w{*/
+/*color: #BB8D1F !important*/
+/*}*/
+
+.mbsc-mobiscroll .mbsc-fr-btn-a {
+    background-color: torgb($color-acento, .3) !important
+}
+
+.mbsc-mobiscroll .mbsc-cal-days th {
+    border-bottom-color: $color-acento !important
+}
+
+.mbsc-mobiscroll .mbsc-cal .mbsc-cal-day-sel .mbsc-cal-day-i {
+    background-color: $color-acento !important
+}
+
+.mbsc-mobiscroll .mbsc-cal .mbsc-cal-sc-sel .mbsc-cal-sc-cell-i, .mbsc-mobiscroll .mbsc-cal .mbsc-cal-day-sel .mbsc-cal-day-i {
+    background-color: $color-acento !important
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:after, .mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    background-color: torgb($color-acento, .6);
+    height: 3px;
+    width: 80%;
+    margin-left: 4px;
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 3
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:after {
+    margin-top: -55%;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.mbsc-mobiscroll .mbsc-cal-day-closed:before {
+    margin-top: 45%;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.mbsc-fr-overlay {
+    background-color: rgba(0, 0, 0, .1) !important
+}
+
+.mbsc-mobiscroll .mbsc-fr-hdr, .mbsc-mobiscroll .mbsc-sc-btn {
+    color: $color-acento !important
+}
+
+.mbsc-mobiscroll .mbsc-sc-whl-l {
+    border-color: $color-acento !important
+}

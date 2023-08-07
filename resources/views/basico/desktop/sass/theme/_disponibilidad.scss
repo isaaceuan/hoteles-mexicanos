@@ -1,0 +1,362 @@
+@import 'variables';
+
+
+//MODAL DE HABITACION
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+
+.carousel .carousel-inner .carousel-item > img {
+    -webkit-animation: zoom 35s;
+    animation: zoom 35s;
+}
+
+//PREVIO DE LAS HABITACIONES
+.best-rate h4, .best-rate h5 {
+    margin: 0;
+    color: #e04040;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #fff !important;
+    background-color: $color-acento !important;
+}
+
+.thumb-container {
+    width: 30%;
+    height: 170px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-thumbnail {
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.imageOpenGalley {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.imageOpenGalley:hover .overlay {
+    opacity: 1;
+}
+
+.overlay i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.overlay-gallery i {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.descripcion.row {
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.descripcion.row p {
+    background-color: transparent !important;
+}
+
+.descripcion.row:hover {
+    background-color: rgba(244, 244, 244, 0.7) !important;
+}
+
+.descripcion .tarifaInfo {
+    min-height: 100px;
+}
+
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
+.rate-price h5 {
+    color: #000000;
+}
+
+
+.rate-price .linethrough {
+    text-decoration: line-through;
+    color: #dd3d3d;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    color: #dd3d3d;
+}
+
+
+.menuDetalle {
+    height: 500px;
+    min-height: 500px;
+    overflow-y: auto;
+}
+
+
+.menuDetalle .nav-link:first-child {
+    border-top: 0 !important;
+}
+
+.menuDetalle .nav-link.active:first-child {
+    background-color: $white !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+}
+
+.menuDetalle .nav-link.active {
+    background-color: $white !important;
+    //color: $color-acento !important;
+    border-right: 0 !important;
+}
+
+.menuDetalle .nav-link:hover {
+    //color: $color-acento !important;
+}
+
+.menuDetalle .nav-link {
+    //background-color: #A7A7A7  !important;
+    border-radius: 0 !important;
+    border-top: solid 1px #d8e2e7;
+    border-right: solid 1px #d8e2e7;
+    color: #A7A7A7 !important;
+}
+
+.menuDetalle .tab-content {
+    padding: 10px 10px 0;
+    background-color: #fff;
+}
+
+.menuDetalle .nav-tabs-vertical {
+    min-height: 430px;
+    background-color: #fafafa;
+    position: fixed;
+}
+
+#lineLeft {
+    border-color: transparent #ddd transparent transparent;
+    padding-top: 322px;
+}
+
+#modalDetalle .modal-footer .btn-details.border-left {
+    border-left: 1px solid #ddd;
+}
+
+#dlgDetailsBreakdownTab th {
+    background: #efefef;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-total tbody td {
+    padding: 8px;
+}
+
+table.breakdown tbody td {
+    text-align: center;
+}
+
+table.breakdown tbody td.weekend {
+    background-color: #f6f6f6;
+}
+
+table.breakdown .date {
+    font-weight: bold;
+    /* color: #F7F7F7; */
+}
+
+table.breakdown .offset {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+    display: block;
+}
+
+.offset {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+    display: block;
+}
+
+table.breakdown .price {
+    /* font-weight: 600; */
+    font-size: 0.95em;
+    display: block;
+}
+
+.discount {
+    color: #53ac27;
+}
+
+.bg-gray {
+    background: #f5f5f5;
+}
+
+
+.carousel-thumbnails .carousel-indicators {
+    position: static;
+    overflow: auto;
+    width: 100%;
+    margin: 0 auto;
+    //padding: 10px 0;
+}
+
+.carousel-thumbnails .carousel-indicators > li {
+    width: 15%;
+    height: auto;
+    text-indent: initial;
+}
+
+.carousel-thumbnails .carousel-indicators > li > img {
+    opacity: .5;
+}
+
+.carousel-thumbnails .carousel-indicators > li.active > img {
+    opacity: 1;
+}
+
+.tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $white;
+}
+
+.tags li, .tags a {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.tags a {
+    cursor: none;
+    margin: 0 10px;
+    padding: 0 25px 0 12px;
+    background: #e04040;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -webkit-box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tags a:before {
+    content: "";
+    float: left;
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-color: #e04040 transparent #e04040 transparent;
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+}
+
+.tags a:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    float: left;
+    width: 4px;
+    height: 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #fff;
+    -moz-box-shadow: -1px -1px 2px #004977;
+    -webkit-box-shadow: -1px -1px 2px #004977;
+    box-shadow: -1px -1px 2px #004977;
+}
+
+.tags a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: $white;
+}
+
+//PÁGINA
+
+.contentDetalleHabitacionTarifa hr {
+    border-width: 3px;
+    width: 10%;
+}
+
+#modalDetalleHabitacion .carousel .carousel-inner,
+#modalDetalleTarifa .carousel .carousel-inner {
+    width: 100%;
+    //height: 360px;
+    overflow: hidden;
+}
+
+
+table#total_reserva tbody tr td:last-child {
+    font-size: .9em;
+    padding-left: 0;
+}
+
+.descripcionTarifa p {
+    margin-bottom: 10px !important;
+}
+
+

@@ -1,0 +1,38 @@
+@import "variables";
+
+.btn {
+  //border: 0 !important;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+button:focus{
+  outline: 0 !important;
+}
+.btn-primary {
+  //background-color: $color-acento;
+  border-color: #625C59 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  //background-color: #b53045 ;
+  //border-color: $color-acento ;
+  color: #fff !important;
+}
+
+
+.btn-default {
+  border: 1px solid #ccc !important;
+  color: #444;
+  background-color: #f1f1f1;
+}
+
+.btn-return i {
+  color: #777 !important;
+}
+
+.btn-return a:hover, .btn-return a:focus, .btn-return i:hover {
+  //color: $color-acento ;
+}

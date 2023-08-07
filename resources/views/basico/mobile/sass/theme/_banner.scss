@@ -1,0 +1,16 @@
+@import 'variables';
+
+.banner-principal {
+  height: 350px;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line-border {
+  border-width: 3px;
+  border-color: $white;
+}
