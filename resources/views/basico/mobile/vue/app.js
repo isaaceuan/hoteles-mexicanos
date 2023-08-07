@@ -1,4 +1,4 @@
-require('./../../js/bootstrap');
+import './../../js/bootstrap';
 import Vue from 'vue';
 import axios from 'axios';
 import VueCurrencyFilter from 'vue-currency-filter'
@@ -10,10 +10,11 @@ import vSelect from "vue-select";
 import "vue-select/dist/vue-select.css";
 import Toasted from 'vue-toasted';
 
-window.Vue = require('vue');
+import Vue from 'vue';
+window.Vue = Vue;
 window.axios = axios;
 
-if (process.env.MIX_ENV_MODE === 'production') {
+if (import.meta.env.VITE_ENV_MODE === 'production') {
     Vue.config.devtools = false;
     Vue.config.debug = false;
     Vue.config.silent = true;
@@ -98,7 +99,7 @@ Vue.use(BootstrapVue);
 Vue.use(Toasted, opciones)
 
 const moment = require('moment');
-require('moment/locale/es');
+import 'moment/locale/es';
 Vue.use(require('vue-moment'), {
     moment
 });

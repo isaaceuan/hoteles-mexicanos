@@ -1,4 +1,4 @@
-require('./../../js/bootstrap');
+import './../../js/bootstrap';
 import Vue from 'vue';
 import axios from 'axios';
 import VueCurrencyFilter from 'vue-currency-filter'
@@ -10,7 +10,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 
-window.Vue = require('vue');
+import Vue from 'vue';
+window.Vue = Vue;
 window.axios = axios;
 
 import VueInternationalization from 'vue-i18n';
@@ -72,7 +73,7 @@ Vue.use(VueCurrencyFilter);
 Vue.use(BootstrapVue);
 
 const moment = require('moment');
-require('moment/locale/es');
+import 'moment/locale/es';
 Vue.use(require('vue-moment'), {
     moment
 });
